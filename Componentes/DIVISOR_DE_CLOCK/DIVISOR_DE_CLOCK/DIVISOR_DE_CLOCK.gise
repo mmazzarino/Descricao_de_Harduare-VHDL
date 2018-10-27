@@ -21,8 +21,68 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="DIVISOR_DE_CLOCK.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DIVISOR_DE_CLOCK.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DIVISOR_DE_CLOCK.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DIVISOR_DE_CLOCK.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DIVISOR_DE_CLOCK.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DIVISOR_DE_CLOCK.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DIVISOR_DE_CLOCK.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DIVISOR_DE_CLOCK.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DIVISOR_DE_CLOCK.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="DIVISOR_DE_CLOCK_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DIVISOR_DE_CLOCK_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DIVISOR_DE_CLOCK_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2192603704094910417" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2311491151277415759" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4008461902273513615" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280842703814" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665786" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7141741810006810023" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540665804" xil_pn:in_ck="-8105559803596464925" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8746309421723557812" xil_pn:start_ts="1540665786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.lso"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.ngc"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.ngr"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.prj"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.stx"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.syr"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK.xst"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK_vhdl.prj"/>
+      <outfile xil_pn:name="DIVISOR_DE_CLOCK_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
 
 </generated_project>
