@@ -1,0 +1,60 @@
+------------------------------------------------------------------------------------
+---- Company: 
+---- Engineer: 
+---- 
+---- Create Date:    16:31:06 10/14/2018 
+---- Design Name: 
+---- Module Name:    DETECTOR_DE_BORDA - Behavioral 
+---- Project Name: 
+---- Target Devices: 
+---- Tool versions: 
+---- Description: 
+----
+---- Dependencies: 
+----
+---- Revision: 
+---- Revision 0.01 - File Created
+---- Additional Comments: 
+----
+------------------------------------------------------------------------------------
+--library IEEE;
+--use IEEE.STD_LOGIC_1164.ALL;
+--
+--entity DETECTOR_DE_BORDA is
+--    Port ( CLK_IN : in std_logic;
+--           DADO : in std_logic;	
+--           SAIDA : out  std_logic);
+--end DETECTOR_DE_BORDA;
+--
+--architecture detector_de_borda of DETECTOR_DE_BORDA is
+--signal reg_a: std_logic := '0';
+--signal reg_b: std_logic := '0';
+--signal toggle: std_logic := '0';
+--begin
+--
+--shift_register: process(CLK_IN)
+--variable RISE, FALL: bit := '0';
+--variable concatenacao : std_logic_vector(1 downto 0);
+--begin
+--	concatenacao := reg_a & reg_b;
+--	if(CLK_IN'event and CLK_IN = '1')then
+--		reg_b <= reg_a;
+--		reg_a <= DADO;
+--	end if;
+--	
+--	case concatenacao is
+--		when "10" =>
+--			RISE := '1';
+--			FALL := '0';
+--		when "01" =>
+--			RISE := '0';
+--			FALL := '1';
+--		when others =>
+--			RISE := '0';
+--			FALL := '0';
+--	end case;
+--			
+--	toggle <= reg_a XOR reg_b;				 
+--end process;
+--SAIDA <= toggle;
+--end detector_de_borda;

@@ -1,0 +1,3 @@
+vhdl work "DIVISOR_CLOCK.vhd"
+vhdl work "DISPLAY_LCD.vhd"
+vhdl work "MAIN_CRONOMETRO.vhd"

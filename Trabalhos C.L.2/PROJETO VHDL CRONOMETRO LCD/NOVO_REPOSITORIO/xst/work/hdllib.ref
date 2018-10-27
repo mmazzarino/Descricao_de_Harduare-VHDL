@@ -1,0 +1,8 @@
+EN main_cronometro NULL "C:/Users/mazza/Desktop/PROJETO VHDL CRONOMETRO LCD/NOVO_REPOSITORIO/MAIN_CRONOMETRO.vhd" sub00/vhpl00 1539991274
+AR divisor_clock arq_divisor_clock "C:/Users/mazza/Desktop/PROJETO VHDL CRONOMETRO LCD/NOVO_REPOSITORIO/DIVISOR_CLOCK.vhd" sub00/vhpl02 1539991271
+AR detector_de_borda detector_de_borda "C:/Users/mazza/Desktop/NOVO PROJETO VHDL/NOVO_REPOSITORIO/DETECTOR_DE_BORDA.vhd" sub00/vhpl07 1539550819
+AR display_lcd arq_display_lcd "C:/Users/mazza/Desktop/PROJETO VHDL CRONOMETRO LCD/NOVO_REPOSITORIO/DISPLAY_LCD.vhd" sub00/vhpl05 1539991273
+EN divisor_clock NULL "C:/Users/mazza/Desktop/PROJETO VHDL CRONOMETRO LCD/NOVO_REPOSITORIO/DIVISOR_CLOCK.vhd" sub00/vhpl01 1539991270
+EN display_lcd NULL "C:/Users/mazza/Desktop/PROJETO VHDL CRONOMETRO LCD/NOVO_REPOSITORIO/DISPLAY_LCD.vhd" sub00/vhpl04 1539991272
+EN detector_de_borda NULL "C:/Users/mazza/Desktop/NOVO PROJETO VHDL/NOVO_REPOSITORIO/DETECTOR_DE_BORDA.vhd" sub00/vhpl06 1539550818
+AR main_cronometro arq_main_cronometro "C:/Users/mazza/Desktop/PROJETO VHDL CRONOMETRO LCD/NOVO_REPOSITORIO/MAIN_CRONOMETRO.vhd" sub00/vhpl03 1539991275
