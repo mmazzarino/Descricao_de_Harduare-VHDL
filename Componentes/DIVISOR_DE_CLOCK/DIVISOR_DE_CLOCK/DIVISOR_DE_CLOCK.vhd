@@ -20,16 +20,24 @@ entity DIVISOR_DE_CLOCK is
 			  CLK_IN : in  STD_LOGIC;
            CONT_HIGH : in  INTEGER;
            CONT_TOTAL : in  INTEGER;
+			  ACIONAMENTO : in BOOLEAN;
            CLK_OUT : out  STD_LOGIC
 			 );
 end DIVISOR_DE_CLOCK;
 
 architecture ARQ_DIVISOR_DE_CLOCK of DIVISOR_DE_CLOCK is
+signal recebe_clock: STD_LOGIC;
+
 begin
-process(CLK_IN)
+	
+with ACIONAMENTO select 
+	recebe_clock <= CLK_IN when TRUE,
+					       '0' when others;
+							
+process(recebe_clock)
 variable CONT : INTEGER;
 begin
-	if(CLK_IN'event and CLK_IN = '1')then
+	if(recebe_clock'event and recebe_clock = '1')then
 		if(CONT < CONT_HIGH)then
 			CLK_OUT <= '1';
 			CONT := CONT + 1;
