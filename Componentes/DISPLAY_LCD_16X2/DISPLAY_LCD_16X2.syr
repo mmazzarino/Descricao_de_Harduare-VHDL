@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: DISPLAY_LCD_16X2.prj
 
@@ -160,7 +160,7 @@ Synthesizing Unit <DISPLAY_LCD_16X2>.
     | Encoding           | automatic                                      |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 8-bit register for signal <DATA>.
+    Found 8-bit register for signal <IN_LCD>.
     Found 1-bit register for signal <EN>.
     Found 1-bit register for signal <RS>.
     Summary:
@@ -212,8 +212,8 @@ Optimizing FSM <ea_ci/FSM> on signal <ea_ci[1:17]> with one-hot encoding.
 ----------------------------
 WARNING:Xst:1426 - The value init of the FF/Latch FFd17 hinder the constant cleaning in the block FSM.
    You should achieve better results by setting this init to 0.
-WARNING:Xst:1710 - FF/Latch <DATA_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <DATA_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -234,14 +234,14 @@ Macro Statistics
 =========================================================================
 WARNING:Xst:1426 - The value init of the FF/Latch FSM_FFd17 hinder the constant cleaning in the block FSM_0-parent.
    You should achieve better results by setting this init to 0.
-WARNING:Xst:1710 - FF/Latch <DATA_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <DATA_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <DISPLAY_LCD_16X2> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-INFO:Xst:2261 - The FF/Latch <DATA_4> in Unit <DISPLAY_LCD_16X2> is equivalent to the following FF/Latch, which will be removed : <DATA_5> 
+INFO:Xst:2261 - The FF/Latch <IN_LCD_4> in Unit <DISPLAY_LCD_16X2> is equivalent to the following FF/Latch, which will be removed : <IN_LCD_5> 
 Found area constraint ratio of 100 (+ 5) on block DISPLAY_LCD_16X2, actual ratio is 5.
 
 Final Macro Processing ...
@@ -446,12 +446,12 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 19.00 secs
-Total CPU time to Xst completion: 18.16 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.28 secs
  
 --> 
 
-Total memory usage is 264684 kilobytes
+Total memory usage is 263788 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    6 (   0 filtered)

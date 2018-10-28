@@ -100,3 +100,9 @@ map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o DISPLAY
 par -w -intstyle ise -ol high -t 1 DISPLAY_LCD_16X2_map.ncd DISPLAY_LCD_16X2.ncd DISPLAY_LCD_16X2.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DISPLAY_LCD_16X2.twx DISPLAY_LCD_16X2.ncd -o DISPLAY_LCD_16X2.twr DISPLAY_LCD_16X2.pcf -ucf DISPLAY_LCD_16X2.ucf 
 bitgen -intstyle ise -f DISPLAY_LCD_16X2.ut DISPLAY_LCD_16X2.ncd 
+xst -intstyle ise -ifn "C:/Users/mazza/Desktop/REPOSITORIO_VHDL/VHDL/Componentes/DISPLAY_LCD_16X2/DISPLAY_LCD_16X2.xst" -ofn "C:/Users/mazza/Desktop/REPOSITORIO_VHDL/VHDL/Componentes/DISPLAY_LCD_16X2/DISPLAY_LCD_16X2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY_LCD_16X2.ucf -p xc3s100e-tq144-4 DISPLAY_LCD_16X2.ngc DISPLAY_LCD_16X2.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o DISPLAY_LCD_16X2_map.ncd DISPLAY_LCD_16X2.ngd DISPLAY_LCD_16X2.pcf 
+par -w -intstyle ise -ol high -t 1 DISPLAY_LCD_16X2_map.ncd DISPLAY_LCD_16X2.ncd DISPLAY_LCD_16X2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DISPLAY_LCD_16X2.twx DISPLAY_LCD_16X2.ncd -o DISPLAY_LCD_16X2.twr DISPLAY_LCD_16X2.pcf -ucf DISPLAY_LCD_16X2.ucf 
+bitgen -intstyle ise -f DISPLAY_LCD_16X2.ut DISPLAY_LCD_16X2.ncd 

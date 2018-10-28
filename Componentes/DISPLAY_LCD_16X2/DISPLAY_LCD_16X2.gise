@@ -103,7 +103,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540683373" xil_pn:in_ck="-4903177292938093542" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5490056096318628810" xil_pn:start_ts="1540683351">
+    <transform xil_pn:end_ts="1540690624" xil_pn:in_ck="-4903177292938093542" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5490056096318628810" xil_pn:start_ts="1540690607">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -122,11 +122,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1540681188" xil_pn:in_ck="-370512118845143676" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7601610798709629198" xil_pn:start_ts="1540681188">
+    <transform xil_pn:end_ts="1540690629" xil_pn:in_ck="-370512118845143676" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7601610798709629198" xil_pn:start_ts="1540690629">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540687626" xil_pn:in_ck="-2035440474211444542" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4616510073604177286" xil_pn:start_ts="1540687612">
+    <transform xil_pn:end_ts="1540690638" xil_pn:in_ck="-2035440474211444542" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4616510073604177286" xil_pn:start_ts="1540690629">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.bld"/>
@@ -135,7 +135,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1540687642" xil_pn:in_ck="-6158293706153028797" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7557559725430926307" xil_pn:start_ts="1540687626">
+    <transform xil_pn:end_ts="1540690645" xil_pn:in_ck="-6158293706153028797" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7557559725430926307" xil_pn:start_ts="1540690638">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.pcf"/>
@@ -148,7 +148,7 @@
       <outfile xil_pn:name="DISPLAY_LCD_16X2_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1540687673" xil_pn:in_ck="-1835479934690488228" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1540687642">
+    <transform xil_pn:end_ts="1540690661" xil_pn:in_ck="-1835479934690488228" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1540690645">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.ncd"/>
@@ -162,7 +162,7 @@
       <outfile xil_pn:name="DISPLAY_LCD_16X2_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1540689370" xil_pn:in_ck="-370512118845151301" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1540689353">
+    <transform xil_pn:end_ts="1540690676" xil_pn:in_ck="-370512118845151301" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1540690663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.ut"/>
@@ -174,7 +174,7 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1540687673" xil_pn:in_ck="3102754772559095999" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1540687668">
+    <transform xil_pn:end_ts="1540690661" xil_pn:in_ck="3102754772559095999" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1540690658">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.twr"/>

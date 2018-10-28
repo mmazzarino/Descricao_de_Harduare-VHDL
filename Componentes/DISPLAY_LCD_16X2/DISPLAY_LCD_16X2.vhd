@@ -19,7 +19,8 @@ use UNISIM.VComponents.all;
 entity DISPLAY_LCD_16X2 is
 	port(
 			CLK : in STD_LOGIC;
-			DATA : out STD_LOGIC_VECTOR(7 DOWNTO 0);
+			OUT_PS2: in STD_LOGIC_VECTOR(7 DOWNTO 0);
+			IN_LCD : out STD_LOGIC_VECTOR(7 DOWNTO 0);
 			EN : out STD_LOGIC;
 			RS : out STD_LOGIC
 		 );			
@@ -42,12 +43,12 @@ end component;
 
 ---------------------------------DEFINIÇÃO DE TIPOS-------------------------------
 type ESTADOS_CONF_INICIAL is (FAZER, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, FEITO);
-
+type ARRANJO_TEXTO is ARRAY (NATURAL RANGE <>) of UNSIGNED(7 DOWNTO 0);
 
 ---------------------------------DECLARAÇÃO DE SINAIS-----------------------------
 signal ea_ci : ESTADOS_CONF_INICIAL := FAZER;-- ea_ci = estado atual da configuração inicial
 signal clk_configu: STD_LOGIC;
-
+signal dados_entrada: ARRANJO_TEXTO(0 TO 15);
 
 ---------------------------------INÍCIO-------------------------------------------
 begin
@@ -72,22 +73,26 @@ begin
 				when FAZER => ea_ci <= A;
 				when A => RS <= '0'; ea_ci <= B; 
 				when B => EN <= '1'; ea_ci <= C;
-				when C => DATA <= (x"38"); ea_ci <= D;
+				when C => IN_LCD <= (x"38"); ea_ci <= D;
 				when D => EN <= '0'; ea_ci <= E;
 				when E => EN <= '1'; ea_ci <= F;
-				when F => DATA <= (x"0F"); ea_ci <= G;
+				when F => IN_LCD <= (x"0F"); ea_ci <= G;
 				when G => EN <= '0'; ea_ci <= H;
 				when H => EN <= '1'; ea_ci <= I;
-				when I => DATA <= (x"06"); ea_ci <= J;
+				when I => IN_LCD <= (x"06"); ea_ci <= J;
 				when J => EN <= '0'; ea_ci <= K;
 				when K => EN <= '1'; ea_ci <= L;
-				when L => DATA <= (x"01"); ea_ci <= M;
+				when L => IN_LCD <= (x"01"); ea_ci <= M;
 				when M => EN <= '0'; ea_ci <= N;
 				when N => EN <= '1'; ea_ci <= O;
 				when O => RS <= '1'; ea_ci <= FEITO;
 				when others => NULL; 	
 			end case;		
 		end if;
-	end process;			
+	end process;
+	
+	ESCRITA_DISPLAY: process(OUT_PS2)
+	begin
+		
+	
 end ARQ_DISPLAY_LCD_16X2;
-
