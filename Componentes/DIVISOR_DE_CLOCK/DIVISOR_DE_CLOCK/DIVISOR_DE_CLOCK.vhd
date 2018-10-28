@@ -6,8 +6,8 @@
 -- Module Name: DIVISOR_DE_CLOCK - ARQ_DIVISOR_DE_CLOCK 
 
 -- Description: Recebe um clock, o número de eventos de clock para ficar em nível lógico 
-				--	 alto, o número de eventos de clock para ficar em nível lógico baixo e re-
-				--  torna o clock resultante.
+				--	 alto, o número de eventos de clock para ficar em nível lógico baixo, um
+				--  boolean para iniciar/parar e retorna o clock resultante.
 
 ----------------------------------------------------------------------------------
 library IEEE;

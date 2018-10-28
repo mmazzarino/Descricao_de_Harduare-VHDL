@@ -1,0 +1,11 @@
+NET "DATA<0>" LOC = p58;
+NET "DATA<1>" LOC = p74;
+NET "DATA<2>" LOC = p59;
+NET "DATA<3>" LOC = p75;
+NET "DATA<4>" LOC = p85;
+NET "DATA<5>" LOC = p76;
+NET "DATA<6>" LOC = p86;
+NET "DATA<7>" LOC = p77;
+NET "EN" LOC = p88;
+NET "RS" LOC = p94;
+NET "CLK" LOC = p54;
