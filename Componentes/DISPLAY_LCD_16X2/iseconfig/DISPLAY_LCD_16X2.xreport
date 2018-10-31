@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-10-27T17:47:09</DateModified>
+  <DateModified>2018-10-31T12:00:56</DateModified>
   <ModuleName>DISPLAY_LCD_16X2</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/mazza/Desktop/REPOSITORIO_VHDL/VHDL/Componentes/DISPLAY_LCD_16X2/iseconfig/DISPLAY_LCD_16X2.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/mazza/Desktop/REPOSITORIO_VHDL/VHDL/Componentes/DISPLAY_LCD_16X2\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/mazza/Desktop/Repositorio vhdl/VHDL/Componentes/DISPLAY_LCD_16X2/iseconfig/DISPLAY_LCD_16X2.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/mazza/Desktop/Repositorio vhdl/VHDL/Componentes/DISPLAY_LCD_16X2\</ImplementationReportsDirectory>
   <DateInitialized>2018-10-27T16:53:39</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
