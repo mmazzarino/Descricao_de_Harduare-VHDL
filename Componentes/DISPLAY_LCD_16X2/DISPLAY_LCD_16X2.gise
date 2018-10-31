@@ -107,7 +107,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.lso"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.ngc"/>
@@ -129,6 +131,7 @@
     <transform xil_pn:end_ts="1540690638" xil_pn:in_ck="-2035440474211444542" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4616510073604177286" xil_pn:start_ts="1540690629">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.bld"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.ngd"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2_ngdbuild.xrpt"/>
@@ -138,6 +141,7 @@
     <transform xil_pn:end_ts="1540690645" xil_pn:in_ck="-6158293706153028797" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="7557559725430926307" xil_pn:start_ts="1540690638">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.pcf"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2_map.map"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2_map.mrp"/>
@@ -151,6 +155,7 @@
     <transform xil_pn:end_ts="1540690661" xil_pn:in_ck="-1835479934690488228" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1540690645">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.ncd"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.pad"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.par"/>
@@ -165,6 +170,7 @@
     <transform xil_pn:end_ts="1540690676" xil_pn:in_ck="-370512118845151301" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1540690663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="display_lcd_16x2.bgn"/>
@@ -177,6 +183,7 @@
     <transform xil_pn:end_ts="1540690661" xil_pn:in_ck="3102754772559095999" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1540690658">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.twr"/>
       <outfile xil_pn:name="DISPLAY_LCD_16X2.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
