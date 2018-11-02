@@ -55,15 +55,15 @@ signal dados_entrada: ARRANJO_TEXTO(0 TO 15) := ((x"39"),(x"39"),(x"39"),(x"39")
 signal enderecos: ARRANJO_TEXTO(0 TO 31) := ((x"84"),(x"85"),(x"86"),(x"87"),(x"88"),(x"89"),(x"8A"),(x"8B"),(x"8C"),(x"8D"),(x"8E"),(x"8F"),(x"90"),(x"91"),(x"92"),(x"93"),
 															(x"C0"),(x"C1"),(x"C2"),(x"C3"),(x"C4"),(x"C5"),(x"C6"),(x"C7"),(x"C8"),(x"C9"),(x"CA"),(x"CB"),(x"CC"),(x"CD"),(x"CE"),(x"CF"));
 
-signal EN_CONF : STD_LOGIC;
-signal EN_OB : STD_LOGIC;
-signal EN_ESCR : STD_LOGIC;
-signal RS_CONF : STD_LOGIC;
-signal RS_OB : STD_LOGIC;
-signal RS_ESCR : STD_LOGIC;
-signal IN_LCD_CONF : STD_LOGIC_VECTOR (7 downto 0);
-signal IN_LCD_OB : STD_LOGIC_VECTOR (7 downto 0);
-signal IN_LCD_ESCR : STD_LOGIC_VECTOR (7 downto 0);
+signal EN_CONF : STD_LOGIC := 'Z';
+signal EN_OB : STD_LOGIC := 'Z';
+signal EN_ESCR : STD_LOGIC := 'Z';
+signal RS_CONF : STD_LOGIC := 'Z';
+signal RS_OB : STD_LOGIC := 'Z';
+signal RS_ESCR : STD_LOGIC := 'Z';
+signal IN_LCD_CONF : STD_LOGIC_VECTOR (7 downto 0) := "ZZZZZZZZ";
+signal IN_LCD_OB : STD_LOGIC_VECTOR (7 downto 0) := "ZZZZZZZZ";
+signal IN_LCD_ESCR : STD_LOGIC_VECTOR (7 downto 0) := "ZZZZZZZZ";
 
 CONSTANT ENT : STD_LOGIC_VECTOR (7 downto 0) := "11111110";
 CONSTANT TAB : STD_LOGIC_VECTOR (7 downto 0) := "10110111";
@@ -117,7 +117,6 @@ begin
 -----------------------------PROCESSO PARA CONFIGURAÇÃO INICIAL---------------	
 	
 	CONFIGURACAO_INICIAL: process(clk_configu)
-	variable conta_2 : INTEGER := 1;
 	variable conta1: INTEGER RANGE 0 to 31 := 0;
 	variable conta2: INTEGER RANGE 0 to 2 := 0;
 	begin
@@ -148,8 +147,6 @@ begin
 	
 	OPERACOES_BASICAS : process(OUT_DECODER, clk_configu)
 	variable conta1: INTEGER RANGE 0 to 31 := 0;
-	variable conta_out_char_lcd: INTEGER RANGE 0 to 31 := 0;
-	variable conta_out_ender_lcd: INTEGER RANGE 0 to 31 := 0;
 	variable conta2: INTEGER RANGE 0 to 2 := 0;
 	variable conta_end: INTEGER RANGE 0 to 31 := 0;
 	variable byte_teclado: STD_LOGIC_VECTOR (7 downto 0) := "ZZZZZZZZ";
