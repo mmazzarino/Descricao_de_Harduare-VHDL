@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 05 19:16:06 2018
+
+drc -z TECLADO_PS2.ncd TECLADO_PS2.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,37 @@
+Release 13.2 ngdbuild O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc TECLADO_PS2.ucf -p xc3s100e-tq144-4
+TECLADO_PS2.ngc TECLADO_PS2.ngd
+
+Reading NGO file
+"C:/Users/17111115/Desktop/TECLADO_PS2/TECLADO_PS2/TECLADO_PS2.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "TECLADO_PS2.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 136268 kilobytes
+
+Writing NGD file "TECLADO_PS2.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "TECLADO_PS2.bld"...

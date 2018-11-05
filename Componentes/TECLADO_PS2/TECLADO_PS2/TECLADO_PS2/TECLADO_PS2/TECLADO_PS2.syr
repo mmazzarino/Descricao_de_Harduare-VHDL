@@ -1,0 +1,385 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: TECLADO_PS2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TECLADO_PS2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TECLADO_PS2"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-tq144
+
+---- Source Options
+Top Module Name                    : TECLADO_PS2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/17111115/Desktop/TECLADO_PS2/TECLADO_PS2/TECLADO_PS2.vhd" in Library work.
+Entity <teclado_ps2> compiled.
+Entity <teclado_ps2> (Architecture <arq_teclado_ps2>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TECLADO_PS2> in library <work> (architecture <arq_teclado_ps2>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TECLADO_PS2> in library <work> (Architecture <arq_teclado_ps2>).
+Entity <TECLADO_PS2> analyzed. Unit <TECLADO_PS2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <TECLADO_PS2>.
+    Related source file is "C:/Users/17111115/Desktop/TECLADO_PS2/TECLADO_PS2/TECLADO_PS2.vhd".
+    Found 7-bit register for signal <SEGM7>.
+    Found 32-bit register for signal <conta_pulso>.
+    Found 32-bit adder for signal <conta_pulso$addsub0000>.
+    Found 8-bit register for signal <SCAN_CODE>.
+    Found 8-bit register for signal <scanCode>.
+    Summary:
+	inferred  55 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <TECLADO_PS2> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 11
+ 1-bit register                                        : 8
+ 32-bit register                                       : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <SEGM7_5> (without init value) has a constant value of 0 in block <TECLADO_PS2>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 55
+ Flip-Flops                                            : 55
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <SEGM7_5> (without init value) has a constant value of 0 in block <TECLADO_PS2>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <TECLADO_PS2> ...
+WARNING:Xst:1710 - FF/Latch <SEGM7_1> (without init value) has a constant value of 1 in block <TECLADO_PS2>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <SEGM7_0> in Unit <TECLADO_PS2> is equivalent to the following 3 FFs/Latches, which will be removed : <SEGM7_2> <SEGM7_3> <SEGM7_6> 
+Found area constraint ratio of 100 (+ 5) on block TECLADO_PS2, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 50
+ Flip-Flops                                            : 50
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TECLADO_PS2.ngr
+Top Level Output File Name         : TECLADO_PS2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 198
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 31
+#      LUT2                        : 2
+#      LUT2_L                      : 1
+#      LUT3                        : 6
+#      LUT3_D                      : 1
+#      LUT3_L                      : 4
+#      LUT4                        : 65
+#      LUT4_D                      : 4
+#      LUT4_L                      : 7
+#      MUXCY                       : 38
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 50
+#      FD_1                        : 27
+#      FDE_1                       : 18
+#      FDS_1                       : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 1
+#      OBUF                        : 7
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-4 
+
+ Number of Slices:                       70  out of    960     7%  
+ Number of Slice Flip Flops:             50  out of   1920     2%  
+ Number of 4 input LUTs:                123  out of   1920     6%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    108     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_TEC                            | BUFGP                  | 50    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.749ns (Maximum Frequency: 129.049MHz)
+   Minimum input arrival time before clock: 7.797ns
+   Maximum output required time after clock: 4.450ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_TEC'
+  Clock period: 7.749ns (frequency: 129.049MHz)
+  Total number of paths / destination ports: 4126 / 65
+-------------------------------------------------------------------------
+Delay:               7.749ns (Levels of Logic = 5)
+  Source:            conta_pulso_4 (FF)
+  Destination:       conta_pulso_6 (FF)
+  Source Clock:      CLK_TEC falling
+  Destination Clock: CLK_TEC falling
+
+  Data Path: conta_pulso_4 to conta_pulso_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS_1:C->Q           11   0.591   1.108  conta_pulso_4 (conta_pulso_4)
+     LUT4_D:I0->O         10   0.704   0.886  SCAN_CODE_cmp_eq000021 (N10)
+     LUT4:I3->O            1   0.704   0.000  conta_pulso_mux0000<0>136_G (N47)
+     MUXF5:I1->O           1   0.321   0.455  conta_pulso_mux0000<0>136 (conta_pulso_mux0000<0>136)
+     LUT4_D:I2->O         25   0.704   1.264  conta_pulso_mux0000<0>137 (N01)
+     LUT4:I3->O            1   0.704   0.000  conta_pulso_mux0000<8>1 (conta_pulso_mux0000<8>)
+     FD_1:D                    0.308          conta_pulso_23
+    ----------------------------------------
+    Total                      7.749ns (4.036ns logic, 3.713ns route)
+                                       (52.1% logic, 47.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_TEC'
+  Total number of paths / destination ports: 122 / 42
+-------------------------------------------------------------------------
+Offset:              7.797ns (Levels of Logic = 5)
+  Source:            DADO_TEC (PAD)
+  Destination:       conta_pulso_0 (FF)
+  Destination Clock: CLK_TEC falling
+
+  Data Path: DADO_TEC to conta_pulso_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            21   1.218   1.303  DADO_TEC_IBUF (DADO_TEC_IBUF)
+     LUT4_L:I0->LO         1   0.704   0.104  conta_pulso_mux0000<30>211_SW1 (N21)
+     LUT4:I3->O            2   0.704   0.526  conta_pulso_mux0000<30>211 (N121)
+     LUT3:I1->O            1   0.704   0.499  conta_pulso_mux0000<31>20_SW0 (N30)
+     LUT4:I1->O            1   0.704   0.420  conta_pulso_mux0000<31>23 (conta_pulso_mux0000<31>23)
+     FDS_1:S                   0.911          conta_pulso_0
+    ----------------------------------------
+    Total                      7.797ns (4.945ns logic, 2.852ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_TEC'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.450ns (Levels of Logic = 1)
+  Source:            SEGM7_0 (FF)
+  Destination:       SEGM7<6> (PAD)
+  Source Clock:      CLK_TEC falling
+
+  Data Path: SEGM7_0 to SEGM7<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            4   0.591   0.587  SEGM7_0 (SEGM7_0)
+     OBUF:I->O                 3.272          SEGM7_0_OBUF (SEGM7<0>)
+    ----------------------------------------
+    Total                      4.450ns (3.863ns logic, 0.587ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.30 secs
+ 
+--> 
+
+Total memory usage is 252896 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

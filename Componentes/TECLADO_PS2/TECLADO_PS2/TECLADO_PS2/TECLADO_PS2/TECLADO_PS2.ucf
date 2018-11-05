@@ -1,0 +1,10 @@
+net "CLK_TEC" loc = p96;
+net "DADO_TEC" loc = p97;
+NET "CLK_TEC" CLOCK_DEDICATED_ROUTE = FALSE;
+net "SEGM7<6>" loc = p25;
+net "SEGM7<5>" loc = p16;
+net "SEGM7<4>" loc = p23;
+net "SEGM7<3>" loc = p21;
+net "SEGM7<2>" loc = p20;
+net "SEGM7<1>" loc = p17;
+net "SEGM7<0>" loc = p83;
