@@ -1,0 +1,300 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: DECODER_SCANCODE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DECODER_SCANCODE.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DECODER_SCANCODE"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-tq144
+
+---- Source Options
+Top Module Name                    : DECODER_SCANCODE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" in Library work.
+Entity <decoder_scancode> compiled.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 51. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 52. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 53. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 54. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 55. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 56. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 57. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 58. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 59. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 60. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd" Line 61. Choice or is not a locally static expression.
+Entity <DECODER_SCANCODE> (Architecture <ARQ_DECODER_SCANCODE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DECODER_SCANCODE> in library <work> (architecture <ARQ_DECODER_SCANCODE>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DECODER_SCANCODE> in library <work> (Architecture <ARQ_DECODER_SCANCODE>).
+Entity <DECODER_SCANCODE> analyzed. Unit <DECODER_SCANCODE> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DECODER_SCANCODE>.
+    Related source file is "C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd".
+Unit <DECODER_SCANCODE> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DECODER_SCANCODE> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DECODER_SCANCODE, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DECODER_SCANCODE.ngr
+Top Level Output File Name         : DECODER_SCANCODE
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 83
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 10
+#      LUT4                        : 53
+#      MUXF5                       : 16
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-5 
+
+ Number of Slices:                       38  out of    960     3%  
+ Number of 4 input LUTs:                 66  out of   1920     3%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    108    14%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 9.900ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 250 / 8
+-------------------------------------------------------------------------
+Delay:               9.900ns (Levels of Logic = 7)
+  Source:            SCANCODE<0> (PAD)
+  Destination:       STANDARD_DISP<0> (PAD)
+
+  Data Path: SCANCODE<0> to STANDARD_DISP<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.106   1.224  SCANCODE_0_IBUF (SCANCODE_0_IBUF)
+     LUT3:I0->O            2   0.612   0.449  STANDARD_DISP<0>141 (STANDARD_DISP<0>_bdd24)
+     LUT2:I1->O            1   0.612   0.000  STANDARD_DISP<0>11101 (STANDARD_DISP<0>11101)
+     MUXF5:I1->O           1   0.278   0.360  STANDARD_DISP<0>1110_f5 (STANDARD_DISP<0>1110)
+     LUT4:I3->O            1   0.612   0.509  STANDARD_DISP<0>1185 (STANDARD_DISP<0>1185)
+     LUT4:I0->O            1   0.612   0.357  STANDARD_DISP<0>1214 (STANDARD_DISP_0_OBUF)
+     OBUF:I->O                 3.169          STANDARD_DISP_0_OBUF (STANDARD_DISP<0>)
+    ----------------------------------------
+    Total                      9.900ns (7.001ns logic, 2.899ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.63 secs
+ 
+--> 
+
+Total memory usage is 242464 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

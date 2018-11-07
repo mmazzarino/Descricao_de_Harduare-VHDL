@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">60</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/17111115/Desktop/DECODER SCANCODE/DECODER_SCANCODE/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+</messages>
+
