@@ -1,0 +1,619 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: DISPLAY_LCD_16X2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DISPLAY_LCD_16X2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DISPLAY_LCD_16X2"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-tq144
+
+---- Source Options
+Top Module Name                    : DISPLAY_LCD_16X2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DIVISOR_DE_CLOCK.vhd" in Library work.
+Entity <DIVISOR_DE_CLOCK> compiled.
+Entity <DIVISOR_DE_CLOCK> (Architecture <ARQ_DIVISOR_DE_CLOCK>) compiled.
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DISPLAY_LCD_16X2.vhd" in Library work.
+Entity <DISPLAY_LCD_16X2> compiled.
+Entity <DISPLAY_LCD_16X2> (Architecture <ARQ_DISPLAY_LCD_16X2>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DISPLAY_LCD_16X2> in library <work> (architecture <ARQ_DISPLAY_LCD_16X2>).
+
+Analyzing hierarchy for entity <DIVISOR_DE_CLOCK> in library <work> (architecture <ARQ_DIVISOR_DE_CLOCK>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DISPLAY_LCD_16X2> in library <work> (Architecture <ARQ_DISPLAY_LCD_16X2>).
+INFO:Xst:1433 - Contents of array <dados_entrada> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:2679 - Register <EN_OB> in unit <DISPLAY_LCD_16X2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <RS_OB> in unit <DISPLAY_LCD_16X2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<0>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<1>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<2>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<3>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<4>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<5>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<6>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<7>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<8>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<9>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<10>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<11>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<12>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<13>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<14>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<15>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+Entity <DISPLAY_LCD_16X2> analyzed. Unit <DISPLAY_LCD_16X2> generated.
+
+Analyzing Entity <DIVISOR_DE_CLOCK> in library <work> (Architecture <ARQ_DIVISOR_DE_CLOCK>).
+Entity <DIVISOR_DE_CLOCK> analyzed. Unit <DIVISOR_DE_CLOCK> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DIVISOR_DE_CLOCK>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DIVISOR_DE_CLOCK.vhd".
+    Found 1-bit register for signal <CLK_OUT>.
+    Found 32-bit comparator less for signal <CLK_OUT$cmp_lt0000> created at line 41.
+    Found 32-bit comparator less for signal <CLK_OUT$cmp_lt0001> created at line 43.
+    Found 32-bit up counter for signal <CONT>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <DIVISOR_DE_CLOCK> synthesized.
+
+
+Synthesizing Unit <DISPLAY_LCD_16X2>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DISPLAY_LCD_16X2.vhd".
+WARNING:Xst:1781 - Signal <enderecos> is used but never assigned. Tied to default value.
+WARNING:Xst:653 - Signal <RS_ESCR> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+    Found finite state machine <FSM_0> for signal <ea_ci>.
+    -----------------------------------------------------------------------
+    | States             | 17                                             |
+    | Transitions        | 17                                             |
+    | Inputs             | 0                                              |
+    | Outputs            | 17                                             |
+    | Clock              | clk_configu               (rising_edge)        |
+    | Power Up State     | nao_configurado                                |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <conta21>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk_escrita               (rising_edge)        |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <DATA_LCD>.
+    Found 1-bit register for signal <EN_OUT>.
+    Found 1-bit register for signal <RS_OUT>.
+    Found 5-bit register for signal <conta10>.
+    Found 5-bit addsub for signal <conta10$addsub0000>.
+    Found 5-bit up counter for signal <conta11>.
+    Found 5-bit comparator less for signal <conta11$cmp_lt0000> created at line 213.
+    Found 5-bit register for signal <conta_end>.
+    Found 5-bit addsub for signal <conta_end$addsub0000>.
+    Found 1-bit register for signal <EN_CONF>.
+    Found 1-bit register for signal <EN_ESCR>.
+    Found 8-bit register for signal <IN_LCD_CONF>.
+    Found 8-bit register for signal <IN_LCD_ESCR>.
+    Found 8-bit register for signal <IN_LCD_OB>.
+    Found 1-bit register for signal <RS_CONF>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  47 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <DISPLAY_LCD_16X2> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 5-bit addsub                                          : 2
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 13
+ 1-bit register                                        : 7
+ 5-bit register                                        : 2
+ 8-bit register                                        : 4
+# Comparators                                          : 4
+ 32-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <conta21/FSM> on signal <conta21[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 10    | 100
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <ea_ci/FSM> on signal <ea_ci[1:17]> with one-hot encoding.
+--------------------------------------
+ State           | Encoding
+--------------------------------------
+ nao_configurado | 00000000000000001
+ a               | 00000000000000010
+ b               | 00000000000000100
+ c               | 00000000000001000
+ d               | 00000000000010000
+ e               | 00000000000100000
+ f               | 00000000001000000
+ g               | 00000000010000000
+ h               | 00000000100000000
+ i               | 00000001000000000
+ j               | 00000010000000000
+ k               | 00000100000000000
+ l               | 00001000000000000
+ m               | 00010000000000000
+ n               | 00100000000000000
+ o               | 01000000000000000
+ configurado     | 10000000000000000
+--------------------------------------
+WARNING:Xst:1426 - The value init of the FF/Latch FFd17 hinder the constant cleaning in the block FSM.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_OB_5> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_0> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_1> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_2> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_3> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_4> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_5> (without init value) has a constant value of 1 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <IN_LCD_ESCR<7:6>> (without init value) have a constant value of 0 in block <DISPLAY_LCD_16X2>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 2
+ 5-bit addsub                                          : 2
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 47
+ Flip-Flops                                            : 47
+# Comparators                                          : 4
+ 32-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch FSM_FFd17 hinder the constant cleaning in the block FSM_0-parent.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_OB_5> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_0> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_1> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_2> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_3> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_4> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_5> (without init value) has a constant value of 1 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <DISPLAY_LCD_16X2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <IN_LCD_CONF_4> in Unit <DISPLAY_LCD_16X2> is equivalent to the following FF/Latch, which will be removed : <IN_LCD_CONF_5> 
+Found area constraint ratio of 100 (+ 5) on block DISPLAY_LCD_16X2, actual ratio is 14.
+
+Final Macro Processing ...
+
+Processing Unit <DISPLAY_LCD_16X2> :
+	Found 2-bit shift register for signal <conta21_FSM_FFd1>.
+Unit <DISPLAY_LCD_16X2> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 119
+ Flip-Flops                                            : 119
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DISPLAY_LCD_16X2.ngr
+Top Level Output File Name         : DISPLAY_LCD_16X2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 393
+#      GND                         : 1
+#      INV                         : 12
+#      LUT1                        : 70
+#      LUT2                        : 18
+#      LUT2_D                      : 1
+#      LUT2_L                      : 1
+#      LUT3                        : 24
+#      LUT3_L                      : 1
+#      LUT4                        : 77
+#      LUT4_L                      : 10
+#      MUXCY                       : 104
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 120
+#      FD                          : 22
+#      FDE                         : 17
+#      FDR                         : 64
+#      FDS                         : 12
+#      FDSE                        : 5
+# Shift Registers                  : 1
+#      SRL16                       : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 8
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-4 
+
+ Number of Slices:                      115  out of    960    11%  
+ Number of Slice Flip Flops:            120  out of   1920     6%  
+ Number of 4 input LUTs:                215  out of   1920    11%  
+    Number used as logic:               214
+    Number used as Shift registers:       1
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    108    17%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_B/CLK_OUT                      | NONE(EN_OUT)           | 14    |
+CLK_A/CLK_OUT1                     | BUFG                   | 41    |
+CLK1                               | BUFGP                  | 66    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.870ns (Maximum Frequency: 145.556MHz)
+   Minimum input arrival time before clock: 8.628ns
+   Maximum output required time after clock: 4.310ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_B/CLK_OUT'
+  Clock period: 4.014ns (frequency: 249.128MHz)
+  Total number of paths / destination ports: 16 / 15
+-------------------------------------------------------------------------
+Delay:               4.014ns (Levels of Logic = 0)
+  Source:            Mshreg_conta21_FSM_FFd1 (FF)
+  Destination:       conta21_FSM_FFd1 (FF)
+  Source Clock:      CLK_B/CLK_OUT rising
+  Destination Clock: CLK_B/CLK_OUT rising
+
+  Data Path: Mshreg_conta21_FSM_FFd1 to conta21_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.706   0.000  Mshreg_conta21_FSM_FFd1 (Mshreg_conta21_FSM_FFd1)
+     FD:D                      0.308          conta21_FSM_FFd1
+    ----------------------------------------
+    Total                      4.014ns (4.014ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_A/CLK_OUT1'
+  Clock period: 5.892ns (frequency: 169.722MHz)
+  Total number of paths / destination ports: 214 / 65
+-------------------------------------------------------------------------
+Delay:               5.892ns (Levels of Logic = 4)
+  Source:            conta_end_0 (FF)
+  Destination:       IN_LCD_OB_1 (FF)
+  Source Clock:      CLK_A/CLK_OUT1 rising
+  Destination Clock: CLK_A/CLK_OUT1 rising
+
+  Data Path: conta_end_0 to IN_LCD_OB_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             11   0.591   1.012  conta_end_0 (conta_end_0)
+     LUT2:I1->O            5   0.704   0.637  IN_LCD_OB_mux0000<7>30 (IN_LCD_OB_mux0000<7>30)
+     LUT4:I3->O            1   0.704   0.424  IN_LCD_OB_mux0000<1>41 (IN_LCD_OB_mux0000<1>41)
+     LUT4_L:I3->LO         1   0.704   0.104  IN_LCD_OB_mux0000<1>49 (IN_LCD_OB_mux0000<1>49)
+     LUT4:I3->O            1   0.704   0.000  IN_LCD_OB_mux0000<1>86 (IN_LCD_OB_mux0000<1>)
+     FDE:D                     0.308          IN_LCD_OB_1
+    ----------------------------------------
+    Total                      5.892ns (3.715ns logic, 2.177ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK1'
+  Clock period: 6.870ns (frequency: 145.556MHz)
+  Total number of paths / destination ports: 4818 / 132
+-------------------------------------------------------------------------
+Delay:               6.870ns (Levels of Logic = 13)
+  Source:            CLK_B/CONT_0 (FF)
+  Destination:       CLK_B/CONT_0 (FF)
+  Source Clock:      CLK1 rising
+  Destination Clock: CLK1 rising
+
+  Data Path: CLK_B/CONT_0 to CLK_B/CONT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  CLK_B/CONT_0 (CLK_B/CONT_0)
+     LUT1:I0->O            1   0.704   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<0>_rt (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<0> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<1> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<2> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<3> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<4> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<5> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<6> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<7> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<8> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<9> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           2   0.459   0.622  CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<10> (CLK_B/Mcompar_CLK_OUT_cmp_lt0000_cy<10>)
+     LUT2:I0->O           32   0.704   1.262  CLK_B/CONT_and00001 (CLK_B/CONT_and0000)
+     FDR:R                     0.911          CLK_B/CONT_0
+    ----------------------------------------
+    Total                      6.870ns (4.364ns logic, 2.506ns route)
+                                       (63.5% logic, 36.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_B/CLK_OUT'
+  Total number of paths / destination ports: 88 / 10
+-------------------------------------------------------------------------
+Offset:              7.867ns (Levels of Logic = 6)
+  Source:            OUT_DECODER<5> (PAD)
+  Destination:       DATA_LCD_6 (FF)
+  Destination Clock: CLK_B/CLK_OUT rising
+
+  Data Path: OUT_DECODER<5> to DATA_LCD_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  OUT_DECODER_5_IBUF (OUT_DECODER_5_IBUF)
+     LUT4:I0->O            1   0.704   0.000  EN_OUT_cmp_eq000211 (EN_OUT_cmp_eq00021)
+     MUXF5:I1->O          14   0.321   1.175  EN_OUT_cmp_eq00021_f5 (conta_end_and0000)
+     LUT4:I0->O            9   0.704   0.899  EN_OUT_or00001 (EN_OUT_or0000)
+     LUT2:I1->O            3   0.704   0.535  DATA_LCD_mux0001<0>21 (N27)
+     LUT4:I3->O            1   0.704   0.000  DATA_LCD_mux0001<7>1 (DATA_LCD_mux0001<7>)
+     FD:D                      0.308          DATA_LCD_7
+    ----------------------------------------
+    Total                      7.867ns (4.663ns logic, 3.204ns route)
+                                       (59.3% logic, 40.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_A/CLK_OUT1'
+  Total number of paths / destination ports: 370 / 17
+-------------------------------------------------------------------------
+Offset:              8.628ns (Levels of Logic = 7)
+  Source:            OUT_DECODER<5> (PAD)
+  Destination:       conta_end_4 (FF)
+  Destination Clock: CLK_A/CLK_OUT1 rising
+
+  Data Path: OUT_DECODER<5> to conta_end_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  OUT_DECODER_5_IBUF (OUT_DECODER_5_IBUF)
+     LUT4:I0->O            1   0.704   0.000  EN_OUT_cmp_eq000211 (EN_OUT_cmp_eq00021)
+     MUXF5:I1->O          14   0.321   1.175  EN_OUT_cmp_eq00021_f5 (conta_end_and0000)
+     LUT4:I0->O            8   0.704   0.932  EN_OUT_cmp_eq00022 (EN_OUT_cmp_eq0002)
+     LUT4:I0->O            1   0.704   0.424  Maddsub_conta_end_addsub0000_cy<3>1_SW0 (N30)
+     LUT4_L:I3->LO         1   0.704   0.135  conta_end_mux0000<0>27 (conta_end_mux0000<0>27)
+     LUT4:I2->O            1   0.704   0.000  conta_end_mux0000<0>38 (conta_end_mux0000<0>)
+     FDE:D                     0.308          conta_end_4
+    ----------------------------------------
+    Total                      8.628ns (5.367ns logic, 3.261ns route)
+                                       (62.2% logic, 37.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_B/CLK_OUT'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            EN_OUT (FF)
+  Destination:       EN_OUT (PAD)
+  Source Clock:      CLK_B/CLK_OUT rising
+
+  Data Path: EN_OUT to EN_OUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.447  EN_OUT (EN_OUT_OBUF)
+     OBUF:I->O                 3.272          EN_OUT_OBUF (EN_OUT)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.15 secs
+ 
+--> 
+
+Total memory usage is 259808 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   25 (   0 filtered)
+Number of infos    :   22 (   0 filtered)
+

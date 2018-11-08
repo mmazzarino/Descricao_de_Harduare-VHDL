@@ -1,0 +1,632 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: EDITOR_DE_TEXTOS.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "EDITOR_DE_TEXTOS.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "EDITOR_DE_TEXTOS"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-tq144
+
+---- Source Options
+Top Module Name                    : EDITOR_DE_TEXTOS
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DIVISOR_DE_CLOCK.vhd" in Library work.
+Architecture arq_divisor_de_clock of Entity divisor_de_clock is up to date.
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/TECLADO_PS2.vhd" in Library work.
+Architecture arq_teclado_ps2 of Entity teclado_ps2 is up to date.
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" in Library work.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 51. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 52. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 53. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 54. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 55. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 56. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 57. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 58. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 59. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 60. Choice or is not a locally static expression.
+WARNING:HDLParsers:817 - "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd" Line 61. Choice or is not a locally static expression.
+Architecture arq_decoder_scancode of Entity decoder_scancode is up to date.
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DISPLAY_LCD_16X2.vhd" in Library work.
+Entity <display_lcd_16x2> compiled.
+Entity <display_lcd_16x2> (Architecture <arq_display_lcd_16x2>) compiled.
+Compiling vhdl file "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS.vhd" in Library work.
+Architecture arq_editor_de_textos of Entity editor_de_textos is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <EDITOR_DE_TEXTOS> in library <work> (architecture <arq_editor_de_textos>).
+
+Analyzing hierarchy for entity <TECLADO_PS2> in library <work> (architecture <arq_teclado_ps2>).
+
+Analyzing hierarchy for entity <DECODER_SCANCODE> in library <work> (architecture <arq_decoder_scancode>).
+
+Analyzing hierarchy for entity <DISPLAY_LCD_16X2> in library <work> (architecture <arq_display_lcd_16x2>).
+
+Analyzing hierarchy for entity <DIVISOR_DE_CLOCK> in library <work> (architecture <arq_divisor_de_clock>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <EDITOR_DE_TEXTOS> in library <work> (Architecture <arq_editor_de_textos>).
+Entity <EDITOR_DE_TEXTOS> analyzed. Unit <EDITOR_DE_TEXTOS> generated.
+
+Analyzing Entity <TECLADO_PS2> in library <work> (Architecture <arq_teclado_ps2>).
+Entity <TECLADO_PS2> analyzed. Unit <TECLADO_PS2> generated.
+
+Analyzing Entity <DECODER_SCANCODE> in library <work> (Architecture <arq_decoder_scancode>).
+Entity <DECODER_SCANCODE> analyzed. Unit <DECODER_SCANCODE> generated.
+
+Analyzing Entity <DISPLAY_LCD_16X2> in library <work> (Architecture <arq_display_lcd_16x2>).
+INFO:Xst:1433 - Contents of array <dados_entrada> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:2679 - Register <EN_OB> in unit <DISPLAY_LCD_16X2> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <RS_OB> in unit <DISPLAY_LCD_16X2> has a constant value of 1 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<0>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<1>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<2>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<3>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<4>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<5>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<6>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<7>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<8>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<9>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<10>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<11>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<12>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<13>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<14>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <dados_entrada<15>> in unit <DISPLAY_LCD_16X2> has a constant value of 00100000 during circuit operation. The register is replaced by logic.
+Entity <DISPLAY_LCD_16X2> analyzed. Unit <DISPLAY_LCD_16X2> generated.
+
+Analyzing Entity <DIVISOR_DE_CLOCK> in library <work> (Architecture <arq_divisor_de_clock>).
+Entity <DIVISOR_DE_CLOCK> analyzed. Unit <DIVISOR_DE_CLOCK> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <TECLADO_PS2>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/TECLADO_PS2.vhd".
+    Found 8-bit register for signal <SCAN_CODE>.
+    Found 32-bit register for signal <conta_pulso>.
+    Found 32-bit adder for signal <conta_pulso$addsub0000>.
+    Found 8-bit register for signal <scanCode>.
+    Summary:
+	inferred  48 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <TECLADO_PS2> synthesized.
+
+
+Synthesizing Unit <DECODER_SCANCODE>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd".
+Unit <DECODER_SCANCODE> synthesized.
+
+
+Synthesizing Unit <DIVISOR_DE_CLOCK>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DIVISOR_DE_CLOCK.vhd".
+    Found 1-bit register for signal <CLK_OUT>.
+    Found 32-bit comparator less for signal <CLK_OUT$cmp_lt0000> created at line 41.
+    Found 32-bit comparator less for signal <CLK_OUT$cmp_lt0001> created at line 43.
+    Found 32-bit up counter for signal <CONT>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <DIVISOR_DE_CLOCK> synthesized.
+
+
+Synthesizing Unit <DISPLAY_LCD_16X2>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DISPLAY_LCD_16X2.vhd".
+WARNING:Xst:1781 - Signal <enderecos> is used but never assigned. Tied to default value.
+WARNING:Xst:646 - Signal <RS_OB> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <RS_ESCR> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <IN_LCD_OB> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <EN_ESCR> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <ea_ci>.
+    -----------------------------------------------------------------------
+    | States             | 17                                             |
+    | Transitions        | 17                                             |
+    | Inputs             | 0                                              |
+    | Outputs            | 17                                             |
+    | Clock              | clk_configu               (rising_edge)        |
+    | Power Up State     | nao_configurado                                |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <conta20>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 3                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk_escrita               (rising_edge)        |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5-bit register for signal <conta1>.
+    Found 5-bit addsub for signal <conta1$addsub0000>.
+    Found 5-bit up counter for signal <conta10>.
+    Found 5-bit comparator less for signal <conta10$cmp_lt0000> created at line 228.
+    Found 5-bit register for signal <conta_end>.
+    Found 5-bit addsub for signal <conta_end$addsub0000>.
+    Found 1-bit register for signal <EN_CONF>.
+    Found 8-bit register for signal <IN_LCD_CONF>.
+    Found 8-bit register for signal <IN_LCD_ESCR>.
+    Found 1-bit register for signal <RS_CONF>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <DISPLAY_LCD_16X2> synthesized.
+
+
+Synthesizing Unit <EDITOR_DE_TEXTOS>.
+    Related source file is "C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS.vhd".
+Unit <EDITOR_DE_TEXTOS> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 16
+ 1-bit register                                        : 12
+ 32-bit register                                       : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 4
+ 32-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <CONEXOES_DISPLAY/conta20/FSM> on signal <conta20[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 10    | 100
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <CONEXOES_DISPLAY/ea_ci/FSM> on signal <ea_ci[1:17]> with one-hot encoding.
+--------------------------------------
+ State           | Encoding
+--------------------------------------
+ nao_configurado | 00000000000000001
+ a               | 00000000000000010
+ b               | 00000000000000100
+ c               | 00000000000001000
+ d               | 00000000000010000
+ e               | 00000000000100000
+ f               | 00000000001000000
+ g               | 00000000010000000
+ h               | 00000000100000000
+ i               | 00000001000000000
+ j               | 00000010000000000
+ k               | 00000100000000000
+ l               | 00001000000000000
+ m               | 00010000000000000
+ n               | 00100000000000000
+ o               | 01000000000000000
+ configurado     | 10000000000000000
+--------------------------------------
+WARNING:Xst:1290 - Hierarchical block <CONEXOES_TECLADO> is unconnected in block <EDITOR_DE_TEXTOS>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <CONEXOES_DECODER> is unconnected in block <EDITOR_DE_TEXTOS>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <IN_LCD_ESCR_0> in Unit <CONEXOES_DISPLAY> is equivalent to the following 6 FFs/Latches, which will be removed : <IN_LCD_ESCR_1> <IN_LCD_ESCR_2> <IN_LCD_ESCR_3> <IN_LCD_ESCR_4> <IN_LCD_ESCR_6> <IN_LCD_ESCR_7> 
+WARNING:Xst:1426 - The value init of the FF/Latch FFd17 hinder the constant cleaning in the block FSM.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_6> (without init value) has a constant value of 0 in block <CONEXOES_DISPLAY>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_7> (without init value) has a constant value of 0 in block <CONEXOES_DISPLAY>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_0> (without init value) has a constant value of 0 in block <CONEXOES_DISPLAY>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_5> (without init value) has a constant value of 1 in block <CONEXOES_DISPLAY>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <CLK_OUT> of sequential type is unconnected in block <CLK_B>.
+WARNING:Xst:2404 -  FFs/Latches <IN_LCD_ESCR<7:6>> (without init value) have a constant value of 0 in block <DISPLAY_LCD_16X2>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+# Comparators                                          : 4
+ 32-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch FSM_FFd17 hinder the constant cleaning in the block FSM_0-parent.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_6> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_CONF_7> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_0> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_1> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_2> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_3> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_4> (without init value) has a constant value of 0 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <IN_LCD_ESCR_5> (without init value) has a constant value of 1 in block <DISPLAY_LCD_16X2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1899 - Due to constant pushing, all outputs of the instance <CLK_B> of the block <DIVISOR_DE_CLOCK> are unconnected in block <DISPLAY_LCD_16X2>.
+   This instance will be removed from the design along with all underlying logic
+WARNING:Xst:2677 - Node <ea_ci_FSM_FFd1> of sequential type is unconnected in block <DISPLAY_LCD_16X2>.
+
+Optimizing unit <EDITOR_DE_TEXTOS> ...
+
+Optimizing unit <TECLADO_PS2> ...
+
+Optimizing unit <DISPLAY_LCD_16X2> ...
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_7> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_6> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_5> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_4> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_3> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_2> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_1> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/SCAN_CODE_0> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_6> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_5> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_7> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_3> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_2> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_4> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_0> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_31> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_30> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_29> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_28> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_27> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_26> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_25> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_24> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_23> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_22> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_21> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_20> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_19> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_18> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_17> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_16> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_15> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_14> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_13> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_12> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_11> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_10> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_9> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_8> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_7> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_6> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_5> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_4> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_3> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_2> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_1> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/conta_pulso_0> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+WARNING:Xst:2677 - Node <CONEXOES_TECLADO/scanCode_1> of sequential type is unconnected in block <EDITOR_DE_TEXTOS>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <CONEXOES_DISPLAY/IN_LCD_CONF_5> in Unit <EDITOR_DE_TEXTOS> is equivalent to the following FF/Latch, which will be removed : <CONEXOES_DISPLAY/IN_LCD_CONF_4> 
+Found area constraint ratio of 100 (+ 5) on block EDITOR_DE_TEXTOS, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : EDITOR_DE_TEXTOS.ngr
+Top Level Output File Name         : EDITOR_DE_TEXTOS
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 157
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 35
+#      LUT2                        : 13
+#      LUT2_L                      : 1
+#      LUT3                        : 9
+#      LUT4                        : 9
+#      MUXCY                       : 51
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 56
+#      FD                          : 16
+#      FDR                         : 32
+#      FDS                         : 5
+#      FDSE                        : 3
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-4 
+
+ Number of Slices:                       44  out of    960     4%  
+ Number of Slice Flip Flops:             56  out of   1920     2%  
+ Number of 4 input LUTs:                 72  out of   1920     3%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  11  out of    108    10%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CONEXOES_DISPLAY/CLK_A/CLK_OUT1    | BUFG                   | 23    |
+CLK_FPGA                           | BUFGP                  | 33    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.836ns (Maximum Frequency: 146.280MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.982ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CONEXOES_DISPLAY/CLK_A/CLK_OUT1'
+  Clock period: 4.056ns (frequency: 246.548MHz)
+  Total number of paths / destination ports: 60 / 29
+-------------------------------------------------------------------------
+Delay:               4.056ns (Levels of Logic = 2)
+  Source:            CONEXOES_DISPLAY/ea_ci_FSM_FFd3 (FF)
+  Destination:       CONEXOES_DISPLAY/EN_CONF (FF)
+  Source Clock:      CONEXOES_DISPLAY/CLK_A/CLK_OUT1 rising
+  Destination Clock: CONEXOES_DISPLAY/CLK_A/CLK_OUT1 rising
+
+  Data Path: CONEXOES_DISPLAY/ea_ci_FSM_FFd3 to CONEXOES_DISPLAY/EN_CONF
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.622  CONEXOES_DISPLAY/ea_ci_FSM_FFd3 (CONEXOES_DISPLAY/ea_ci_FSM_FFd3)
+     LUT2_L:I0->LO         1   0.704   0.104  CONEXOES_DISPLAY/EN_CONF_mux00001 (CONEXOES_DISPLAY/EN_CONF_mux00001)
+     LUT4:I3->O            1   0.704   0.420  CONEXOES_DISPLAY/EN_CONF_mux00006 (CONEXOES_DISPLAY/EN_CONF_mux00006)
+     FDS:S                     0.911          CONEXOES_DISPLAY/EN_CONF
+    ----------------------------------------
+    Total                      4.056ns (2.910ns logic, 1.146ns route)
+                                       (71.7% logic, 28.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_FPGA'
+  Clock period: 6.836ns (frequency: 146.280MHz)
+  Total number of paths / destination ports: 2211 / 66
+-------------------------------------------------------------------------
+Delay:               6.836ns (Levels of Logic = 11)
+  Source:            CONEXOES_DISPLAY/CLK_A/CONT_7 (FF)
+  Destination:       CONEXOES_DISPLAY/CLK_A/CONT_31 (FF)
+  Source Clock:      CLK_FPGA rising
+  Destination Clock: CLK_FPGA rising
+
+  Data Path: CONEXOES_DISPLAY/CLK_A/CONT_7 to CONEXOES_DISPLAY/CLK_A/CONT_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.706  CONEXOES_DISPLAY/CLK_A/CONT_7 (CONEXOES_DISPLAY/CLK_A/CONT_7)
+     LUT3:I0->O            1   0.704   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_lut<1> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<1> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<2> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<3> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<4> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<5> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<6> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<7> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<8> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           2   0.459   0.622  CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<9> (CONEXOES_DISPLAY/CLK_A/Mcompar_CLK_OUT_cmp_lt0000_cy<9>)
+     LUT2:I0->O           32   0.704   1.262  CONEXOES_DISPLAY/CLK_A/CONT_and00001 (CONEXOES_DISPLAY/CLK_A/CONT_and0000)
+     FDR:R                     0.911          CONEXOES_DISPLAY/CLK_A/CONT_0
+    ----------------------------------------
+    Total                      6.836ns (4.246ns logic, 2.590ns route)
+                                       (62.1% logic, 37.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CONEXOES_DISPLAY/CLK_A/CLK_OUT1'
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Offset:              5.982ns (Levels of Logic = 2)
+  Source:            CONEXOES_DISPLAY/ea_ci_FSM_FFd17 (FF)
+  Destination:       RS_DISPLAY (PAD)
+  Source Clock:      CONEXOES_DISPLAY/CLK_A/CLK_OUT1 rising
+
+  Data Path: CONEXOES_DISPLAY/ea_ci_FSM_FFd17 to RS_DISPLAY
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.591   0.995  CONEXOES_DISPLAY/ea_ci_FSM_FFd17 (CONEXOES_DISPLAY/ea_ci_FSM_FFd17)
+     LUT2:I0->O            1   0.704   0.420  CONEXOES_DISPLAY/RS_OUT1 (RS_DISPLAY_OBUF)
+     OBUF:I->O                 3.272          RS_DISPLAY_OBUF (RS_DISPLAY)
+    ----------------------------------------
+    Total                      5.982ns (4.567ns logic, 1.415ns route)
+                                       (76.3% logic, 23.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.01 secs
+ 
+--> 
+
+Total memory usage is 259488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   84 (   0 filtered)
+Number of infos    :   22 (   0 filtered)
+
