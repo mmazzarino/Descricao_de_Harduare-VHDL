@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">56</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">60</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/17111115.PORTOALEGRE/Desktop/EDITOR_DE_TEXTOS/EDITOR_DE_TEXTOS/DECODER_SCANCODE.vhd</arg>&quot; Line <arg fmt="%d" index="2">61</arg>. Choice <arg fmt="%s" index="3">or</arg> is not a locally static expression.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">dados_entrada</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">EN_OB</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">RS_OB</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;0&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;1&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;2&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;3&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;4&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;5&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;6&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;7&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;8&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;9&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;10&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;11&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;12&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;13&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;14&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">dados_entrada&lt;15&gt;</arg>&gt; in unit &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt; has a constant value of <arg fmt="%s" index="3">00100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">enderecos</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RS_OB</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">RS_ESCR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">IN_LCD_OB</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">EN_ESCR</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">CONEXOES_DECODER</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONEXOES_DISPLAY</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;IN_LCD_ESCR_1&gt; &lt;IN_LCD_ESCR_2&gt; &lt;IN_LCD_ESCR_3&gt; &lt;IN_LCD_ESCR_4&gt; &lt;IN_LCD_ESCR_6&gt; &lt;IN_LCD_ESCR_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">FFd17</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">FSM</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_CONF_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CONEXOES_DISPLAY</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_CONF_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CONEXOES_DISPLAY</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CONEXOES_DISPLAY</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">CONEXOES_DISPLAY</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CLK_OUT</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CLK_B</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">IN_LCD_ESCR</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">6</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">DISPLAY_LCD_16X2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">FSM_FFd17</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">FSM_0-parent</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_CONF_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_CONF_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">IN_LCD_ESCR_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1899" delta="old" >Due to constant pushing, all outputs of the instance &lt;<arg fmt="%s" index="1">CLK_B</arg>&gt; of the block &lt;<arg fmt="%s" index="2">DIVISOR_DE_CLOCK</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">DISPLAY_LCD_16X2</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ea_ci_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DISPLAY_LCD_16X2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/SCAN_CODE_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/conta_pulso_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CONEXOES_TECLADO/scanCode_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CONEXOES_DISPLAY/IN_LCD_CONF_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">EDITOR_DE_TEXTOS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CONEXOES_DISPLAY/IN_LCD_CONF_4&gt; </arg>
+</msg>
+
+</messages>
+

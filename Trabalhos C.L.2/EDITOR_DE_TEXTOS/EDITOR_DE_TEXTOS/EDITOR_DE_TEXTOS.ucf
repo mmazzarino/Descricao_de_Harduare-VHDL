@@ -1,0 +1,14 @@
+net "CLOCK_TECLADO" loc = p96;
+net "DADO_TECLADO" loc = p97;
+net "CLK_FPGA" loc = p54;
+net "DATA_DISPLAY<7>" loc = p77;
+net "DATA_DISPLAY<6>" loc = p86;
+net "DATA_DISPLAY<5>" loc = p76;
+net "DATA_DISPLAY<4>" loc = p85;
+net "DATA_DISPLAY<3>" loc = p75;
+net "DATA_DISPLAY<2>" loc = p59;
+net "DATA_DISPLAY<1>" loc = p74;
+net "DATA_DISPLAY<0>" loc = p58;
+net "EN_DISPLAY" loc = p88;
+net "RS_DISPLAY" loc = p94;
+NET "CLOCK_TECLADO" CLOCK_DEDICATED_ROUTE = FALSE;
